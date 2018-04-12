@@ -1,0 +1,11 @@
+.areaContainer{
+    position: relative;
+    background-color: white;
+    .area{
+        border: 2px solid blue;
+        width: 400px;
+        height: 400px;
+        margin: 20px auto;
+        position: relative;
+    }
+}

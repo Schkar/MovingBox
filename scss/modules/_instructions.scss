@@ -1,0 +1,12 @@
+.instructionsContainer{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    height: 50px;
+    transition: height 1s;
+    &.open{
+        height: 130px;
+        transition: height 1s;
+    }
+}

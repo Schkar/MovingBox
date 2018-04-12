@@ -1,0 +1,87 @@
+.headerContainer {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+.instructionsContainer {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  height: 50px;
+  -webkit-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s;
+}
+
+.instructionsContainer.open {
+  height: 130px;
+  -webkit-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s;
+}
+
+.points {
+  font-size: 2rem;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.areaContainer {
+  position: relative;
+  background-color: white;
+}
+
+.areaContainer .area {
+  border: 2px solid blue;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.movingBox {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: top 0.5s ease, left 0.5s ease;
+  -o-transition: top 0.5s ease, left 0.5s ease;
+  transition: top 0.5s ease, left 0.5s ease;
+}
+
+.pointBox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid black;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.footerContainer {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+.loseWindow {
+  font-size: 2em;
+  position: absolute;
+  font-weight: bold;
+  top: calc(50% - 55px);
+  left: calc(50% - 55px);
+}
+/*# sourceMappingURL=main.css.map */
